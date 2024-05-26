@@ -1,0 +1,17 @@
+.message-item {
+    display: flex;
+    gap: 5px;
+    border: 1px white solid;
+    padding: 2px 1rem;
+    border-radius: 20px;
+    max-width: 70%;
+    text-align: left;
+}
+
+.message-item .time {
+    font-style: italic;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
